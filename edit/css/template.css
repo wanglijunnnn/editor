@@ -1,0 +1,214 @@
+.editor-resume-main {
+    margin: 60px 0;
+}
+
+.edit-resume-top,
+.edit-resume-left,
+.edit-resume-right,
+.edit-resume-bottom {
+    position: relative;
+}
+
+.edit-resume-left,
+.edit-resume-right {
+    height: inherit;
+}
+
+.edit-resume {
+    width: 820px;
+    height: 1160px;
+}
+
+.edit-resume-left {
+    width: 260px;
+    float: left;
+    padding: 30px;
+    background-color: #e3e3e3;
+}
+
+.edit-resume-right {
+    width: 560px;
+    float: right;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.base-item {
+    position: relative;
+    z-index: 0;
+}
+
+.head-item {}
+
+.head-con-img img {
+    width: 100%;
+}
+
+.head-con-img {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+/* 模块标题 */
+
+div[contenteditable] {
+    font-size: inherit;
+    height: inherit;
+}
+
+.edit-resume-left .base-item {
+    top: -40px;
+}
+
+.base-item dl dt {
+    padding: 10px 0;
+}
+
+.base-item dl dt .item-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.edit-resume-left .edit-resume-bg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    background: #2e569c;
+}
+
+.edit-resume-left .head-item {
+    top: 0;
+    z-index: 1;
+}
+
+.edit-resume-left .info-item {
+    background: #2a4286;
+    color: #fff;
+    top: -60px;
+    left: -30px;
+    padding: 85px 30px 25px 30px;
+    width: 260px;
+}
+
+.edit-resume-left .info-item dl dt {
+    display: none;
+}
+
+.info-list {
+    padding: 5px 0;
+}
+
+.info-list .iconfont,
+.info-list .info-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.info-list .iconfont {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px 0 0 0;
+    margin: 0 5px 0 0;
+}
+
+.skill-list {
+    margin: 0 0 10px 0;
+}
+
+.skill-list span {
+    display: block;
+}
+
+.skill-list .skill-title {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 0 6px 0;
+}
+
+.skill-list .skill-shape s {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 8px;
+    background: #fff;
+}
+
+.skill-list .skill-shape s i {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 80%;
+    height: 8px;
+    background: #2a4286;
+}
+
+.skill-list .skill-level {
+    display: none;
+}
+
+.hobby-con {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    margin: 0 0 0 -10px;
+}
+
+.hobby-list {
+    box-sizing: border-box;
+    flex: 0 0 25%;
+    height: 50px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.hobby-list .icon {
+    width: 2em;
+    height: 2em;
+}
+
+.time-item,
+.text-item {
+    margin: 0 0 20px 0
+}
+
+.time-item .time-list {
+    margin: 0 0 10px 0;
+}
+
+.time-list-dt {
+    width: 100%;
+    vertical-align: bottom;
+    font-size: 0;
+}
+
+.time-list-dt>span {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    height: inherit;
+}
+
+.time-list-dt>span.company {
+    text-align: right;
+}
+
+.time-list-dt>span.post {
+    text-align: right;
+}
+
+.time-list-dd {
+    color: #454545;
+}

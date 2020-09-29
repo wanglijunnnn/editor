@@ -1,0 +1,273 @@
+<!Doctype>
+<html>
+  <head>
+    <title>编辑器</title>
+    <link rel="stylesheet" href="../edit/css/common.css">
+    <link rel="stylesheet" href="../edit/css/edit.css">
+    <link rel="stylesheet" href="../edit/css/template.css">
+  </head>
+  <body>
+
+    <div class="editor-container">
+      <div class="editor-toolbar">
+        <input type="button" onClick="document.execCommand('InsertHtml',true,'<div><a>ddddd</a></div>')" value="插入html"/>
+        <input type="button" onClick="document.execCommand('Bold')" value="加粗"/>
+        <input type="button" onClick="document.execCommand('InsertImage',true,'https://t8.baidu.com/it/u=3571592872,3353494284&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1597830452&t=f2bfce05929152961a6f3e411e42fffc')" value="插入图片"/>
+
+      </div>
+      <div class="item-toolbar">
+        <input type="button" value="拖动" class="drag"/>
+        <input type="button" value="添加"/>
+        <input type="button" value="设置"/>
+      </div>
+      <div class="editor-resume-main" data-resume-type="r1">
+        <div class="edit-resume clearfix">
+          <div class="edit-resume-top">
+            <div class="edit-resume-bg"></div>
+          </div>
+          <div class="edit-resume-left connectedSortable">
+              <div class="edit-resume-bg"></div>
+              <div class="base-item head-item">
+                <div class="head-con">
+                  <div class="head-con-img">
+                    <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3594644278,2284795912&fm=26&gp=0.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="base-item info-item">
+                <dl>
+                    <dt>
+                      <span class="iconfont"></span>
+                      <span class="item-title"><div contenteditable="false">基本信息</div></span>
+                      <span class="item-bg"></span>
+                    </dt>
+                    <dd>
+                      <div class="info-con">
+                        <div class="info-list">
+                          <a class="iconfont">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-dianhua"></use>
+                            </svg>
+                          </a>
+                          <span class="info-title"><div contenteditable="false">13600000000</div></span>
+                        </div>
+                        <div class="info-list">
+                          <a class="iconfont">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-youxiang"></use>
+                            </svg>
+                          </a>
+                          <span class="info-title"><div contenteditable="false">jianli@163.com</div></span>
+                        </div>
+                        <div class="info-list">
+                          <a class="iconfont">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-wangzhan"></use>
+                            </svg>
+                          </a>
+                          <span class="info-title"><div contenteditable="false">yourwebsite.com</div></span>
+                        </div>
+                      </div>
+                    </dd>
+                </dl>
+              </div>
+              <div class="base-item skill-item">
+                <dl>
+                    <dt>
+                      <span class="item-icon"></span>
+                      <span class="item-title"><div contenteditable="false">职业技能</div></span>
+                      <span class="item-bg"></span>
+                    </dt>
+                    <dd>
+                      <div class="skill-con">
+                          <div class="skill-list">
+                              <span class="skill-title">photoshop</span>
+                              <span class="skill-shape">
+                                <s><i></i></s>
+                              </span>
+                              <span class="skill-level">80%</span>
+                          </div>
+                          <div class="skill-list">
+                              <span class="skill-title">photoshop</span>
+                              <span class="skill-shape">
+                                <s><i></i></s>
+                              </span>
+                              <span class="skill-level">80%</span>
+                          </div>
+                          <div class="skill-list">
+                              <span class="skill-title">photoshop</span>
+                              <span class="skill-shape">
+                                <s><i></i></s>
+                              </span>
+                              <span class="skill-level">80%</span>
+                          </div>
+                          <div class="skill-list">
+                              <span class="skill-title">photoshop</span>
+                              <span class="skill-shape">
+                                <s><i></i></s>
+                              </span>
+                              <span class="skill-level">80%</span>
+                          </div>
+                      </div>
+                    </dd>
+                </dl>
+              </div>
+              <div class="base-item hobby-item">
+                <dl>
+                    <dt>
+                      <span class="item-icon"></span>
+                      <span class="item-title"><div contenteditable="false">兴趣爱好</div></span>
+                      <span class="item-bg"></span>
+                    </dt>
+                    <dd>
+                      <div class="hobby-con">
+                          <div class="hobby-list">
+                              <i class="hobby-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-yundong-1"></use>
+                                </svg>
+                              </i>
+                              <span class="hobby-title"><div contenteditable="false">游泳</div><span>
+                          </div>
+                          <div class="hobby-list">
+                              <i class="hobby-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-yundongyixueke"></use>
+                                </svg>
+                              </i>
+                              <span class="hobby-title"><div contenteditable="false">游泳</div><span>
+                          </div>
+                          <div class="hobby-list">
+                              <i class="hobby-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-xian_yundong"></use>
+                                </svg>
+                              </i>
+                              <span class="hobby-title"><div contenteditable="false">游泳</div><span>
+                          </div>
+                          <div class="hobby-list">
+                              <i class="hobby-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-xian_yundong"></use>
+                                </svg>
+                              </i>
+                              <span class="hobby-title"><div contenteditable="false">游泳</div><span>
+                          </div>
+                          <div class="hobby-list">
+                              <i class="hobby-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-xian_yundong"></use>
+                                </svg>
+                              </i>
+                              <span class="hobby-title"><div contenteditable="false">游泳</div><span>
+                          </div>
+
+                      </div>
+                    </dd>
+                </dl>
+              </div>
+
+          </div>
+          <div class="edit-resume-right connectedSortable">
+              <div class="edit-resume-bg"></div>
+              <div class="base-item text-item edit-item">
+                <dl>
+                    <dt>
+                      <span class="item-icon"></span>
+                      <span class="item-title"><div contenteditable="false">现住地址</div></span>
+                      <span class="item-bg"></span>
+                    </dt>
+                  <dd>
+                    <div class="text-con">
+                      <div class="text-list">
+                        <div contenteditable="false">yourwebsite.com</div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+              </div>
+              <div class="base-item time-item edit-item">
+                <dl>
+                    <dt>
+                      <span class="item-icon"></span>
+                      <span class="item-title"><div contenteditable="false">教育经验</div></span>
+                      <span class="item-bg"></span>
+                    </dt>
+                  <dd>
+                    <div class="time-con">
+                      <div class="time-list">
+                          <div class="time-list-dt">
+                            <span class="date"><div contenteditable="false">2019/01/20-2020/03/10</div></span>
+                            <span class="company"><div contenteditable="false">广州寄锦教育有限公司</div></span>
+                            <span class="post"><div contenteditable="false">web前端工程师</div></span>
+                          </div>
+                          <div class="time-list-dd">
+                            <div contenteditable="false">教育经验教育经验教育经验教育经验</div>
+                          </div>
+                      </div>
+                      <div class="time-list">
+                          <div class="time-list-dt">
+                            <span class="date"><div contenteditable="false">2019/01/20-2020/03/10</div></span>
+                            <span class="company"><div contenteditable="false">广州寄锦教育有限公司</div></span>
+                            <span class="post"><div contenteditable="false">web前端工程师</div></span>
+                          </div>
+                          <div class="time-list-dd">
+                            <div contenteditable="false"><span>可以写和职位相近的专业技能名称以及写明熟悉程度比如：<br>个人对以下技术具备一定了解及使用、开发经验:Java、SpringBoot、SpringCloud、Mybatis、SpringDataJpa、Hibernate、RabbitMQ 等</span></div>
+                          </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+              </div>
+               <div class="base-item time-item edit-item">
+                <dl>
+                    <dt>
+                      <span class="item-icon"></span>
+                      <span class="item-title"><div contenteditable="false">工作经验</div></span>
+                      <span class="item-bg"></span>
+                    </dt>
+                  <dd>
+                    <div class="time-con">
+                      <div class="time-list">
+                          <div class="time-list-dt">
+                            <span class="date"><div contenteditable="false">2019/01/20-2020/03/10</div></span>
+                            <span class="company"><div contenteditable="false">广州寄锦教育有限公司</div></span>
+                            <span class="post"><div contenteditable="false">web前端工程师</div></span>
+                          </div>
+                          <div class="time-list-dd">
+                            <div contenteditable="false"><span>1、时间倒序<br>2、可以简单描述公司<br>3、详细分析JD关键词，工作内容贴近招聘要求，可采用Star法则来详细描述，按照工作背景，工作内容，取得成果。参考右侧高分技巧。<br>4、Star法则：STAR法则就是是情境(situation)、任务(task)、行动(action)、结果(result)四项的缩写。<br>4.1、Situation: 事情是在什么情况下发生的（项目背景）。<br>4.2、Task: 你是如何明确你的任务的（项目要达成的目标）。<br>4.3、Action: 针对这样的情况分析，你采用了什么行动方式。（项目具体的行动步骤）。<br>4.4、Result: 结果怎样，在这样的情况下你学习到了什么。（项目最终的结果）。</span></div>
+                          </div>
+                      </div>
+                      <div class="time-list">
+                          <div class="time-list-dt">
+                            <span class="date"><div contenteditable="false">2019/01/20-2020/03/10</div></span>
+                            <span class="company"><div contenteditable="false">广州寄锦教育有限公司</div></span>
+                            <span class="post"><div contenteditable="false">web前端工程师</div></span>
+                          </div>
+                          <div class="time-list-dd">
+                            <div contenteditable="false"><span>可以写和职位相近的专业技能名称以及写明熟悉程度比如：<br>个人对以下技术具备一定了解及使用、开发经验:Java、SpringBoot、SpringCloud、Mybatis、SpringDataJpa、Hibernate、RabbitMQ 等</span></div>
+                          </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+              </div>
+          </div>
+          <div class="edit-resume-bottom">
+            <div class="edit-resume-bg"></div>
+          </div>
+        </div>
+      <div>
+    </div>
+    <script type="text/javascript" src="../global/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../global/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://at.alicdn.com/t/font_2006636_ea2a8dofo6o.js"></script>
+    <script type="text/javascript" src="../edit/js/extend/medit.js"></script>
+    <script type="text/javascript" src="../edit/js/edit.js"></script>
+    <script type="text/javascript">
+      $(function(){
+       $.medit();
+      })
+    </script>
+  </body>
+</html>
